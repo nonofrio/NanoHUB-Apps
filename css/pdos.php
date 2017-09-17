@@ -4,7 +4,7 @@
         <title>&#9776; Nicolas Onofrio</title>
 	<meta charset="utf-8" />
         <meta name="viewport" content="user-scalable = yes">
-	<link rel="stylesheet" href="pdos.css" />
+	<link rel="stylesheet" href="css/pdos.css" />
     </head>
     <body>
 
