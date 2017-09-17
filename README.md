@@ -1,2 +1,1 @@
 # nanoHUB-apps
-# Supplementary materials 
