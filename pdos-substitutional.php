@@ -37,7 +37,7 @@
                     }
                     $tmd = $tm . $cc . "2";
                     // Path to image
-                    $pdos = "../images/" .$tmd . "/" . $tm . $cc . "2-" .$ele . "-sub" . $site . ".jpg" ;
+                    $pdos = "../images/Substitutional/" .$tmd . "/" . $tm . $cc . "2-" .$ele . "-sub" . $site . ".jpg" ;
                     // Define links 
                     $urltm = "&cc=" . $cc . "&site=" . $site . "&ele=" . $ele;
                     $urlcc = "&tm=" . $tm . "&site=" . $site . "&ele=" . $ele;
