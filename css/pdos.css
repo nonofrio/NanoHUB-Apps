@@ -1,0 +1,129 @@
+@import url(fonts.css);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, bottom, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+
+body {
+        color: #474f51;
+        font-size: 13.5pt;
+        font-family: 'Yanone Kaffeesatz';
+        line-height: 1.85em;
+        font-weight: 300;
+}
+
+.container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        max-width: 1200px;
+        min-width: 600px;
+}
+
+#content-wrapper {
+        border-bottom: solid 10px #fff;
+        padding: 25px 0 15px 0;
+        margin-top: 10px; 
+}
+
+/* Content */
+
+#content {
+}
+
+#content h1 {
+        font-size: 1.8em;
+        color: #373f42;
+        margin: 0 0 0.25em 0;
+}
+
+#content h2 {
+        font-size: 1.4em;
+        color: #96a9b5;
+        margin: 0 0 0.05em 0;
+}
+
+#content h3 {
+        color: #96a9b5;
+        font-size: 1.25em;
+        margin: 0 0 0.05em 0;
+}
+
+#content a {
+    color:#349e5e;
+}
+
+#content noline {
+    color:#349e5e;
+    text-decoration:none;
+}
+
+#content a:hover {
+    color:#349e5e;
+    text-decoration:none;
+}
+
+#periodic_table {
+    width: 100%;
+    min-width: 600px;
+}
+
+#periodic_table > div {
+    margin-bottom: 2.5%;
+}
+
+#periodic_table > div > div {
+    width: 5.5%;
+    display: inline-block;
+    margin-right: -7px;
+}
+
+#periodic_table > div > div > div {
+    border: 3px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background: white;
+    margin-top: -3px;
+    padding: 20% 0;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+#pdos {
+    width:91%;
+    padding: 30px 15px 30px 15px;
+    margin-bottom: 40px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #999999;
+    min-height: 220px;
+}
+
+#pdos img{
+    float:right;
+    width:40%;
+    }
+.underline {
+    text-decoration: underline;
+    }
+.no-underline {
+    text-decoration: none;
+    }
+.el-select {
+    width:40%;
+    table-layout:fixed;
+    }
+.el-select td:first-child {
+    width: 200px;
+    line-height: 20px;
+    }
